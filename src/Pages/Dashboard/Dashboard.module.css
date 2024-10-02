@@ -1,0 +1,503 @@
+.dashboard {
+    display: flex;
+    background-color: white;
+}
+
+.dashboardSection {
+    padding: 60px 77px 40px 31px;
+}
+
+.dashboardSectionHead {
+    display: flex;
+    align-items: center;
+    gap: 192px;
+}
+
+.searchInput {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 741px;
+    height: 48px;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    padding-left: 16px;
+}
+
+.searchInput input {
+    border: none;
+}
+
+.searchInput::placeholder {
+    color: #4C4C4C;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    border: none;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.profileWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profileDetails {
+    font-family: Manrope, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #4C4C4C;
+}
+
+.profileDetails:nth-child(2) {
+    font-family: Manrope, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #B3B3B3;
+}
+
+.dashboardContent {
+    display: flex;
+    gap: 69px;
+    padding-top: 80px;
+}
+
+.records {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.imageBackground {
+    display: flex;
+    gap: 32px;
+}
+
+.pastStats {
+    width: 227px;
+    height: 80px;
+    position: relative;
+    border-radius: 4px;
+    overflow: clip;
+}
+
+
+.pastStatsTextBox {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    z-index: 1;
+    position: absolute;
+    width: 227px;
+    height: 80px;
+    color: white;
+    gap: 11px;
+}
+
+.pastBackgroundImage {
+    position: absolute;
+    top: 0px;
+    z-Index: 0;
+    height: 80px;
+    width: 227px;
+}
+
+.imageText:nth-child(1) {
+    font-family: Manrope, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+.imageText:nth-child(2) {
+    font-family: Manrope, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: white;
+}
+
+.allArtists {
+    display: flex;
+    padding-top: 50px;
+    align-items: end;
+    gap: 244px;
+}
+
+.allArtistsText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.allArtistsText:nth-child(1) {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #4C4C4C;
+
+}
+
+.allArtistsText:nth-child(2) {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #B3B3B3;
+
+}
+
+.artistsSearch {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.userInput {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 17px;
+    padding: 8px;
+    gap: 16px;
+    border-radius: 4px;
+    border: 1px solid #E6E6E6
+}
+
+.userInput input {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    border: none;
+}
+
+.filterBtn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 4px;
+    border-radius: 4px;
+    border: 1px solid #E6E6E6;
+    color: #4C4C4C;
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.allArtistsTable {
+    display: flex;
+    margin-top: 31px;
+}
+
+.allArtistsTableContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.tableHeading {
+    display: flex;
+    gap: 100px;
+    padding: 12px 32px;
+    background-color: #F7F7F7;
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #4C4C4C;
+}
+
+.tableDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.tableContentWrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tableContent {
+    display: flex;
+    align-items: center;
+    background-color: #FCFCFC;
+    padding: 17px 50px 17px 24px;
+}
+
+.allArtistsProfile {
+    display: flex;
+    align-items: center;
+    color: #808080;
+    gap: 8px;
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.allArtistsStatus {
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #DEEDE5;
+    color: #427A5B;
+}
+
+.allArtistsRatings {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.progressBar {
+    width: 100px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #F2F2F2;
+}
+
+.progressBar div {
+    width: 40px;
+    height: 4px;
+    gap: 0px;
+    border-radius: 4px;
+    background-color: #4C4C4C;
+}
+
+.progressDetails {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4C4C4C;
+}
+
+.progressIncrement {
+    display: flex;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 4px;
+    background-color: #DEEDE5;
+    border-radius: 4px;
+    color: #427A5B;
+}
+
+.bestSellingStats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.allArtistsProject {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #808080;
+}
+
+.allArtistsSale {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #808080;
+}
+
+.allArtistsBorder {
+    width: 741px;
+    height: 0px;
+    border: 1px solid #F2F2F2;
+}
+
+.pageTravel {
+    display: flex;
+    align-items: center;
+    padding: 14px 22px;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    gap: 24px;
+}
+
+.previousPage {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #9F9F9F;
+    cursor: pointer;
+}
+
+.pageTravelNo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pageNo {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 2px 6px;
+    border-radius: 100%;
+    background-color: #f3f3f2;
+    color: #4C4C4C;
+    cursor: pointer;
+}
+
+.nextPage {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #4C4C4C;
+    cursor: pointer;
+}
+
+.bestSellingContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #FCFCFC;
+    padding: 32px 25px 10px 18px;
+    border-radius: 4px;
+}
+
+.bestSellingItemsHeading {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.bestSellingItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.bestSellingDetails {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.bestSellingProfile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #4C4C4C;
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+}
+
+.sellingDetails {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #808080;
+
+}
+
+.viewBtn {
+    padding: 8px;
+    background-color: #B4CD93;
+    border-radius: 4px;
+    border: none;
+    color: #4C4C4C;
+    cursor: pointer;
+}
+
+.dateTime {
+    display: flex;
+    align-items: center;
+    padding: 45px 20px;
+    gap: 56px;
+    border-radius: 4px;
+    background-color: #FCFCFC;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time button {
+    padding: 12px 14px;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: left;
+    color: #4C4C4C;
+}
+
+.time button:nth-child(3) {
+    border: none;
+    background-color: #B4CD93;
+
+}
+
+.date {
+    color: #4C4C4C;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+}
+
+@media screen and (max-width : 1110px){
+    .dashboardContent{
+        display: flex;
+        flex-direction: column;
+    }
+    .bestSellingStats{
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+}
